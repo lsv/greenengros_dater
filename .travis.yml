@@ -16,7 +16,7 @@ before_script:
   - travis_retry composer update --no-interaction
 
 script:
-  - php bin/phpunit
+  - php vendor/bin/phpunit
 
 notifications:
   email: martin.aarhof@gmail.com
